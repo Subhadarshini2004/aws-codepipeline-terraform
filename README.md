@@ -58,4 +58,27 @@ However, the YAML files were created, tested, and pushed to GitHub for demonstra
 │       └── main.yml
 └── README.md
 
+⚙️ Tools Used
+Terraform – Infrastructure as Code
+AWS CodePipeline – CI/CD pipeline
+AWS CodeBuild – Code building & testing
+AWS EC2 – Application hosting
+GitHub Actions – Workflow automation
+tfsec – Terraform security scanner
+Trivy – Docker vulnerability scanner
+Kubernetes + Sealed Secrets – Secret management
+
+Test Steps (Killercoda-based)
+Since a live EKS cluster was not used:
+Sealed Secrets were created and tested in the Killercoda Kubernetes playground.
+Secrets were confirmed using kubectl and environment variables inside a running pod.
+
+<img width="1920" height="1080" alt="Screenshot (655)" src="https://github.com/user-attachments/assets/df58b746-a8c3-4049-936e-16a456ab9a09" />
+<img width="1920" height="1080" alt="Screenshot (713)" src="https://github.com/user-attachments/assets/87d98242-ce76-4b7e-ae95-b504db817140" />
+<img width="1920" height="1080" alt="Screenshot (659)" src="https://github.com/user-attachments/assets/94efbdef-092f-4d76-97f2-2bd0b02b7e3e" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c5dbc965-014e-49ae-bbc5-eedfddf19058" />
+
+🙋 Author
+P Subhadarshini Paramanik
+GitHub: Subhadarshini2004
 

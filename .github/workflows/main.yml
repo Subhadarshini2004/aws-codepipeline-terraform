@@ -1,0 +1,43 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  terraform-security:
+    runs-on: ubuntu-latest
+    name: Run tfsec on Terraform files
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Run tfsec
+        uses: aquasecurity/tfsec-action@v1.0.0
+
+  trivy-scan:
+    runs-on: ubuntu-latest
+    name: Trivy scan for Docker image
+    steps:
+      - name: Install Trivy
+        uses: aquasecurity/trivy-action@master
+
+      - name: Scan nginx image
+        run: trivy image nginx
+
+  deploy-to-k8s:
+    runs-on: ubuntu-latest
+    name: Apply Sealed Secret & Deployment
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Kubeconfig
+        uses: azure/setup-kubectl@v3
+        with:
+          version: 'v1.28.0'
+      - name: Apply Kubernetes Manifests
+        run: |
+          kubectl apply -f sealed-secret.yaml
+          kubectl apply -f deployment.yaml

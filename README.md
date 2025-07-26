@@ -73,10 +73,15 @@ Since a live EKS cluster was not used:
 Sealed Secrets were created and tested in the Killercoda Kubernetes playground.
 Secrets were confirmed using kubectl and environment variables inside a running pod.
 
+VPC Architecture Diagram:
+<img width="916" height="242" alt="image" src="https://github.com/user-attachments/assets/649228d5-e75a-4cab-8b31-85e37d8b9c56" />
+
+PROJECT WORKING SCREENSHOTS:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0a6c2983-4479-45f5-aa33-d7e97cd3bb79" />
 <img width="1920" height="1080" alt="Screenshot (655)" src="https://github.com/user-attachments/assets/df58b746-a8c3-4049-936e-16a456ab9a09" />
 <img width="1920" height="1080" alt="Screenshot (659)" src="https://github.com/user-attachments/assets/94efbdef-092f-4d76-97f2-2bd0b02b7e3e" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c5dbc965-014e-49ae-bbc5-eedfddf19058" />
+<img width="940" height="436" alt="image" src="https://github.com/user-attachments/assets/5d48ce74-ebab-472e-bac2-a5cd707ee16a" />
 
 🙋 Author
 P Subhadarshini Paramanik

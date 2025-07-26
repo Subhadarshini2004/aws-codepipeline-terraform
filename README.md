@@ -73,10 +73,8 @@ Since a live EKS cluster was not used:
 Sealed Secrets were created and tested in the Killercoda Kubernetes playground.
 Secrets were confirmed using kubectl and environment variables inside a running pod.
 
-<img width="940" height="415" alt="image" src="https://github.com/user-attachments/assets/f52e2811-4f53-4b97-b5bf-69acd973c029" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0a6c2983-4479-45f5-aa33-d7e97cd3bb79" />
 <img width="1920" height="1080" alt="Screenshot (655)" src="https://github.com/user-attachments/assets/df58b746-a8c3-4049-936e-16a456ab9a09" />
-<img width="940" height="401" alt="image" src="https://github.com/user-attachments/assets/dc798118-40c6-430d-ac23-95d32599fa73" />
-<img width="1920" height="1080" alt="Screenshot (713)" src="https://github.com/user-attachments/assets/87d98242-ce76-4b7e-ae95-b504db817140" />
 <img width="1920" height="1080" alt="Screenshot (659)" src="https://github.com/user-attachments/assets/94efbdef-092f-4d76-97f2-2bd0b02b7e3e" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c5dbc965-014e-49ae-bbc5-eedfddf19058" />
 
